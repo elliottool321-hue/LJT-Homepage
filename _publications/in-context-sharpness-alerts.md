@@ -4,7 +4,8 @@ collection: publications
 category: conferences
 permalink: /publication/in-context-sharpness-alerts/
 date: "2024"
-venue: "ICML"
+venue: "ICML 2024"
+excerpt: "ICML 2024 co-authored publication."
 ---
 
-Authors: Shiqi Chen, Miao Xiong, **Junteng Liu**, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He.
+Authors: Shiqi Chen, Miao Xiong, Junteng Liu, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He.
