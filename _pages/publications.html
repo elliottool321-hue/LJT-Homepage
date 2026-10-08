@@ -9,13 +9,13 @@ author_profile: false
   <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% assign publications = site.publications | sort: "date" | reverse %}
+{% assign publications = site.publications | sort: "year" | reverse %}
 <ul>
   {% for post in publications %}
     <li>
       <strong>{{ post.title }}</strong><br />
       {{ post.content | markdownify }}
-      <em>{{ post.venue }}, {{ post.date | date: "%Y" }}</em>
+      <em>{{ post.venue }}, {{ post.year }}</em>
     </li>
   {% endfor %}
 </ul>
