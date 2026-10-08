@@ -45,13 +45,9 @@ I am a first-year Ph.D. candidate in Computer Science at the Hong Kong Universit
 6. **Composing Parameter-Efficient Modules with Arithmetic Operations**  
    Jinghan Zhang, Shiqi Chen, **Junteng Liu**, Junxian He. *NeurIPS 2023*.
 
-## Skills
-
-No skills are listed because none were provided in the available memory.
-
 ## Contact
 
 - Email: [jliugi@connect.ust.hk](mailto:jliugi@connect.ust.hk)
 - GitHub: [Vicent0205](https://github.com/Vicent0205)
 - Google Scholar: [Profile](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate)
-- X: [@junteng88716710](https://twitter.com/junteng88716710)
+- X: @junteng88716710
