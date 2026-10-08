@@ -9,7 +9,6 @@ baseurl: "/LJT-Homepage"
 repository: "elliottool321-hue/LJT-Homepage"
 
 author:
-  avatar: ""
   name: "Junteng Liu"
   bio: "First-year PhD candidate at HKUST NLP Group. Research focuses on natural language processing and machine learning."
   employer: "HKUST NLP Group"
@@ -127,13 +126,13 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   - scope:
       path: ""
       type: publications
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: false
       comments: false
 
