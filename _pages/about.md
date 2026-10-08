@@ -11,7 +11,7 @@ I am a first-year Ph.D. candidate in Computer Science at the Hong Kong Universit
 
 ## Education
 
-- **Ph.D. in Computer Science**, Hong Kong University of Science and Technology — 2024–present. Ph.D. supervisor: Professor Junxian He.
+- **Ph.D. in Computer Science**, Hong Kong University of Science and Technology — 2024–present. Ph.D. supervisor: Professor Junxian He, who also advised me during my undergraduate studies.
 - **B.Eng.**, Shanghai Jiao Tong University — 2020–2024 (graduated June 2024).
 
 ## Research interests
@@ -33,7 +33,7 @@ I am a first-year Ph.D. candidate in Computer Science at the Hong Kong Universit
 ## Publications
 
 1. **SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond**  
-   **Junteng Liu**, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He. *arXiv*, 2025.
+   **Junteng Liu**, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He. *arXiv*, 2025. GitHub code repository available.
 2. **On the Perception Bottleneck of VLMs for Chart Understanding**  
    **Junteng Liu**, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He. *arXiv*, 2025. Code repository: `Vision4Chart`.
 3. **On the Universal Truthfulness Hyperplane Inside LLMs**  
