@@ -1,36 +1,26 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+<div class="wordwrap">
+  <p>You can also find my publications on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</p>
+</div>
 {% endif %}
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+{% assign sorted_publications = site.publications | sort: "order" %}
+{% for post in sorted_publications %}
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="archive__item-title" itemprop="headline">{{ post.title }}</h2>
+    <p class="archive__item-excerpt">{{ post.authors }}</p>
+    <p>
+      <em>{{ post.venue }}</em>, {{ post.year }}
+      {% if post.contribution %}<br>{{ post.contribution }}{% endif %}
+    </p>
+  </article>
+</div>
+{% endfor %}
